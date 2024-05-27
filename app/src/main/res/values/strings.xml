@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Athletes App</string>
+    <string name="frag_1">Atleta Comum</string>
+    <string name="frag_2">Atleta Junior</string>
+    <string name="frag_3">Atleta Senior</string>
+    <string name="nome">Nome</string>
+    <string name="data_nasc">Data Nascimento</string>
+    <string name="bairro">Bairro</string>
+    <string name="academia">Academia</string>
+    <string name="record">Recorde (em segundos)</string>
+    <string name="cardiaco">Atleta é cardíaco?</string>
+    <string name="qtdAnos">Anos de Esporte</string>
+    <string name="btnCadastro">Cadastrar</string>
+    <string name="btnListar">Listar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="err">Campos Vazios!</string>
+</resources>

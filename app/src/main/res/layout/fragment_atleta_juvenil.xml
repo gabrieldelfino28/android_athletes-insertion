@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtletaJuvenilFragment">
+
+    <EditText
+        android:id="@+id/inDataNascAC"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="@string/data_nasc"
+        android:inputType="date"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inBairroAC"
+        app:layout_constraintStart_toStartOf="@+id/inBairroAC"
+        app:layout_constraintTop_toBottomOf="@+id/inNomeAC" />
+
+    <EditText
+        android:id="@+id/inNomeAC"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inDataNascAC"
+        app:layout_constraintStart_toStartOf="@+id/inDataNascAC"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inBairroAC"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="@string/bairro"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inQtdAnos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inDataNascAC" />
+
+    <Button
+        android:id="@+id/btnInsertAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="221dp"
+        android:text="@string/btnCadastro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inQtdAnos" />
+
+    <EditText
+        android:id="@+id/inQtdAnos"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="74dp"
+        android:ems="10"
+        android:hint="@string/qtdAnos"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnInsertAC"
+        app:layout_constraintStart_toStartOf="@+id/inBairroAC"
+        app:layout_constraintTop_toBottomOf="@+id/inBairroAC" />
+</androidx.constraintlayout.widget.ConstraintLayout>
